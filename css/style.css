@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+section:nth-child(2n) {
+    background-color: rgb(88, 88, 248);
+}
+
+section:nth-child(2n + 1) {
+    background-color: plum;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.bat {
+    position: fixed;
+    left: 50%;
+    width: 120px;
+    height: 25px;
+    background-color: rgb(68, 68, 68);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+    cursor: pointer;
+     text-transform: uppercase;
+    transition: 0.5s all;
+}
+.n1 {
+    left: 30%;
+}
+.n2 {
+    left: 40%;
+}
+.n3 {
+    left: 50%;
+}
+.n4 {
+    left: 60%;
+}
+.n5 {
+    left: 70%;
+}
+a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 500
+}
